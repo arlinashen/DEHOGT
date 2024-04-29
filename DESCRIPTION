@@ -10,6 +10,6 @@ Authors@R: c(
 Description: Implements a generalized linear model approach for identifying differentially expressed genes across treatment groups. Supports quasi-Poisson and negative binomial models, incorporating treatment effects, normalization factors, and significance thresholds.
 License: GPL-3
 Encoding: UTF-8
-biocViews: BiocVersion, EdgeR, DESeq2, DESeqAnalysis
+biocViews: BiocVersion, aggregateBioVar
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
