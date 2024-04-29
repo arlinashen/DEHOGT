@@ -1,6 +1,6 @@
 Package: DEHOGT
 Title: Differentially Expressed Heterogeneous Overdispersion Gene test
-Version: 0.0.0.9000
+Version: 0.99.0
 Authors@R: 
 person("Arlina", "Shen", , "arlinashen@yahoo.com", role = c("aut", "cre"))
 person("Annie", "Qu", , "aqu2@uci.edu", role = c("aut", "cre"))
