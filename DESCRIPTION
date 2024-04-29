@@ -7,8 +7,10 @@ Authors@R: c(
     person("Qi", "Xu", email = "qxu6@uci.edu", role = c("aut", "cre")),
     person("Yubai", "Yuan", email = "yvy5509@psu.edu", role = c("aut", "cre"))
 )
-Description: This package implements a generalized linear model (GLM) approach for identifying DE genes. It allows for different distributions of read count data (quasi-Poisson or negative binomial) and also incorporates treatment information, normalization factors, and thresholds for significance and log2 fold change in its analysis.
+Description: Implements a generalized linear model approach for identifying differentially expressed genes across treatment groups. Supports quasi-Poisson and negative binomial models, incorporating treatment effects, normalization factors, and significance thresholds.
 License: GPL-3
 Encoding: UTF-8
+biocViews: GeneExpression, StatisticalMethod, DifferentialExpression, RNASeq, Software
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
+
