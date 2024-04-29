@@ -1,11 +1,7 @@
-library(DESeq2)
 library(foreach)
 library(doParallel)
 library(MASS)
-library(DESeq2)
-library(DESeqAnalysis)
 library(ROSE)
-library(edgeR)
 library(multcomp)
 library(MLmetrics)
 library(VennDiagram)
@@ -18,15 +14,6 @@ library(ggplot2)
 if (!requireNamespace("BiocManager", quietly = TRUE)) {
   install.packages("BiocManager")
 }
-
-# Install DESeqAnalysis package from specified repositories
-install.packages(
-  pkgs = "DESeqAnalysis",
-  repos = c(
-    "r.acidgenomics.com",
-    BiocManager::repositories()
-  )
-)
 #' @param data A matrix of gene expression data where rows represent genes and columns represent samples.
 #' @param treatment A vector specifying the treatment conditions for each sample.
 #' @param covariates An optional matrix of gene-wise covariates. Default is NULL.
@@ -112,3 +99,4 @@ glm_func <- function(data, treatment, covariates = NULL, norm_factors = NULL, di
 
   return(output)
 }
+
