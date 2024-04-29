@@ -1,0 +1,15 @@
+Package: DEHOGT
+Title: Differentially Expressed Heterogeneous Overdispersion Gene test
+Version: 0.0.0.9000
+Authors@R: 
+person("Arlina", "Shen", , "arlinashen@yahoo.com", role = c("aut", "cre"))
+person("Annie", "Qu", , "aqu2@uci.edu", role = c("aut", "cre"))
+person("Qi", "Xu", , "qxu6@uci.edu", role = c("aut", "cre"))
+person("Yubai", "Yuan", , "yvy5509@psu.edu", role = c("aut", "cre"))
+
+Description: This package implements a generalized linear model (GLM) approach for identifying DE genes. It allows for different distributions of read count data (quasi-Poisson or negative binomial) and also incorporates treatment information, normalization factors, and thresholds for significance and log2 fold change in its analysis.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
